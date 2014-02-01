@@ -1,0 +1,94 @@
+﻿tim@tim-Pangolin-Performance ~/3251/Project1v2 $ make
+gcc client.c -o nameChanger
+gcc -lcrypto server.c -o changeServer
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myChecking 69.180.27.210 6000 COUNT
+myChecking
+Count is:    0
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myChecking 69.180.27.210 6000 BAL
+myChecking
+Balance is:    200
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myChecking 69.180.27.210 6000 BAL
+myChecking
+Balance is:    200
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myChecking 69.180.27.210 6000 COUNT
+myChecking
+Count is:    2
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger mySavings 69.180.27.210 6000 COUNT
+mySavings
+Count is:    0
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger mySavings 69.180.27.210 6000 BAL
+mySavings
+Balance is:    10
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger mySavings 69.180.27.210 6000 BAL
+mySavings
+Balance is:    10
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger mySavings 69.180.27.210 6000 COUNT
+mySavings
+Count is:    2
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger mySavings 69.180.27.210 6000 BAL
+mySavings
+Balance is:    10
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger mySavings 69.180.27.210 6000 COUNT
+mySavings
+Count is:    3
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger mySavings 69.180.27.210 6000 BAL
+mySavings
+Balance is:    10
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger mySavings 69.180.27.210 6000 BAL
+mySavings
+Balance is:    10
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger mySavings 69.180.27.210 6000 COUNT
+mySavings
+Count is:    5
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myCollege 69.180.27.210 6000 COUNT
+myCollege
+Count is:    0
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myCollege 69.180.27.210 6000 BAL
+myCollege
+Balance is:    40000
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myCollege 69.180.27.210 6000 COUNT
+myCollege
+Count is:    1
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myCollege 69.180.27.210 6000 BAL
+myCollege
+Balance is:    40000
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myCollege 69.180.27.210 6000 BAL
+myCollege
+Balance is:    40000
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myCollege 69.180.27.210 6000 BAL
+myCollege
+Balance is:    40000
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myCollege 69.180.27.210 6000 COUNT
+myCollege
+Count is:    4
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myRetirement 69.180.27.210 6000 COUNT
+myRetirement
+Count is:    0
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myRetirement 69.180.27.210 6000 BAL
+myRetirement
+Balance is:    300000
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myRetirement 69.180.27.210 6000 COUNT
+myRetirement
+Count is:    1
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myRetirement 69.180.27.210 6000 BAL
+myRetirement
+Balance is:    300000
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myRetirement 69.180.27.210 6000 COUNT
+myRetirement
+Count is:    2
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myRetirement 69.180.27.210 6000 BAL
+myRetirement
+Balance is:    300000
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myRetirement 69.180.27.210 6000 BAL
+myRetirement
+Balance is:    300000
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myRetirement 69.180.27.210 6000 BAL
+myRetirement
+Balance is:    300000
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myRetirement 69.180.27.210 6000 BAL
+myRetirement
+Balance is:    300000
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ ./nameChanger myRetirement 69.180.27.210 6000 COUNT
+myRetirement
+Count is:    6
+tim@tim-Pangolin-Performance ~/3251/Project1v2 $ 

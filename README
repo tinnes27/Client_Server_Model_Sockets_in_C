@@ -1,0 +1,13 @@
+Client_Server_Model_Sockets_in_C
+
+This project implements interprocess communication via the client-server model.  These sockets are written in the C programming language.  This is a back account application whereby a client may access their account balance and check to see hoe many times their balance information has been accessed.  The TCP persistent protocol is implemented in this project.  The client needs to know the dotted quad IP address of the server and the port number.  A client may access 4 accounts, myChecking,  mySavings, myRetirement, and myCollege.  Action flag parameters include BAL and COUNT for account balance and access count respectively.  
+
+For example  
+Server call:  ./changeServer 6000
+
+Client call:  ./nameChanger myChecking 23.23.23.23 6000 BAL
+
+Sample output:
+
+MyChecking
+AccountBalance is 200 
